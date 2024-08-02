@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Outfit", serif;
+}
+
+header {
+  background: url(../img/IMAGE.png) no-repeat center;
+  height: 1023px;
+}
+header .head-up {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container {
+  height: 1023px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(31, 39, 50, 0.8117647059);
+}
+header .head-up ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  gap: 90px;
+  padding: 0 50px;
+}
+header .head-up button {
+  width: 250px;
+  height: 65px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1019607843);
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: 0.400000006px;
+  text-align: center;
+  color: white;
+}
+header .head-title {
+  margin-left: 90px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 55px;
+}
+header .head-title ul {
+  gap: 36px;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: 0.400000006px;
+  text-align: left;
+}
+header .head-title1 {
+  display: flex;
+  gap: 20px;
+}
+header .head-middle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+}
+header .head-middle ul {
+  display: flex;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: 0.400000006px;
+  text-align: left;
+  color: white;
+  margin: 0 4rem 0 0;
+}
+header .icon-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .icon-section i {
+  font-size: 50px;
+  margin: 0 0 0 2rem;
+}
+header .section h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28.8px;
+  letter-spacing: 0.400000006px;
+  text-align: left;
+  font-family: "Outfit", serif;
+  color: #D1B06B;
+}
+header .section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  letter-spacing: 0.400000006px;
+  text-align: left;
+}
+header .nothing-section {
+  display: flex;
+  transform: translateX(50px);
+  margin: 10rem 0 0 0;
+}
+header .nothing-section h2 {
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: 0.400000006px;
+  text-align: left;
+  font-family: "Garamond", serif;
+  color: white;
+  margin: 0 0 2rem 0;
+}
+header .nothing-section h4 {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: 0.400000006px;
+  text-align: left;
+  color: #D1B06B;
+  margin: 0 0 2rem 0;
+}
+header .nothing-section button {
+  width: 249px;
+  height: 75px;
+  gap: 0px;
+  border: 1px 1px 1px 1px;
+  opacity: 0px;
+  background: #D1B06B;
+  border: none;
+  margin: 2rem 0 0 0;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: 0.400000006px;
+  text-align: center;
+  color: #1F2732;
+}
+header .big-img img {
+  margin-top: -85px;
+}/*# sourceMappingURL=style.css.map */
